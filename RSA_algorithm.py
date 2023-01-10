@@ -138,3 +138,5 @@ print( "encrypted number:",encrypted_num)
 #using formula for decryption: plaintext = (ciphertext ^ private_key) mod N, using modular exponentiation.
 decrypted_num = decryption(encrypted_num, private_key, n)
 print("decrypted number:",decrypted_num)
+
+#testing testing
