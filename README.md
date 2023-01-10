@@ -7,3 +7,13 @@ Did not implement using classes. Look at RSA_Algorithim_V2 for better implementa
 Contributions made by both Drake and Elley to add more functionality to program. 
 
 Can now generate and store a key pair onto a text document on user's device. Program is able to access these keys for later encryption/decryption. Can now encrypt a message with a friend's public key for them to decrypt later with their private key. Can now decrypt messages from a friend that they sent you using your public key. Has two options for encryption- can encrypt and save to a text file or can copy to clip board to paste elsewhere. Program is able to decrypt a message in a text file or a message pasted directly into the terminal.
+
+# To do
+--Streamline the RSA class and remove any redundancies
+--Improve coding techniques for file reading methods in the RSA class
+--Add a basic menu system
+--Add a basic GUI based off of the menu system
+
+This project is on-going and we intend to keep improving it as our knowledge grows.
+
+
