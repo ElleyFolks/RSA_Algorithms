@@ -246,7 +246,7 @@ class RSA:
     
         temp_len = len(self.encrypted_list)
         templst=[]
-        for i in range(temp_len): #converting every element in decrypted_list to char
+        for i in range(temp_len): #converting every element in encrypted_list to str
             templst.append(str(self.encrypted_list[i]))
         formatted_output = " ".join(templst)
         msg.writelines(formatted_output)
